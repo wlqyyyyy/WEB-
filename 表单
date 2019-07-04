@@ -23,3 +23,10 @@
 
 以及一些以后可能会查询的问题
 POST和GET的区别是什么？
+最直观的区别就是 GET 把参数包含在 URL 中，POST 通过 request body 传递参数。
+实际上他们都是由TCP管制，本质上无差别。
+GET 产生一个 TCP 数据包；POST 产生两个 TCP 数据包
+具体看链接：https://fishc.com.cn/forum.php?mod=viewthread&tid=122724&extra=page%3D1%26filter%3Dtypeid%26typeid%3D731
+
+好了，今天就到这里了，其实我不是一个喜欢记笔记的人（捂脸）
+一步步尝试吧，加油鹿小葵！
