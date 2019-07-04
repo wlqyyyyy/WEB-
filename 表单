@@ -1,0 +1,25 @@
+和小甲鱼学习WEB前端，
+从现在开始决定做笔记
+今天学习的是表单，很简单的登陆界面。
+这是今天我做的
+
+很简单的代码：
+<！doctype html>
+<html>
+<head>
+	<title>登陆页面</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="welcome.php" method="post">
+		名字：<input type="text" name="name" autocomplete="on"><br><br>
+		邮箱：<input type="text" name"email" autocomplete="on"><br><br>
+		<button type="submit" formmethod="get">GET</button>
+		<button type="submit" formmethod="post">POST</button>
+	</form>
+</body>
+</html
+
+
+以及一些以后可能会查询的问题
+POST和GET的区别是什么？
