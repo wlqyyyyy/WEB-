@@ -30,3 +30,45 @@ GET 产生一个 TCP 数据包；POST 产生两个 TCP 数据包
 
 好了，今天就到这里了，其实我不是一个喜欢记笔记的人（捂脸），我连GitHub都没弄清楚（捂脸）
 一步步尝试吧，加油鹿小葵！
+
+
+2019年7月6日
+学习了thead，tbody，tfoot
+以及th，td的colspan（跨列）和rowspan（跨行）
+自动填写（之前已经写过一次）autocomple
+分类的fieldset元素，label元素，select元素，option元素
+
+改善了登陆界面
+代码如下：
+<!doctype html>
+<html>
+<head>
+	<title>登陆页面</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="welcome.php" method="post">
+		<fieldset>
+			<legend>基本信息</legend>
+			<label for="name">名字：</label><input type="text" name="name" autocomplete="on" id="name"><br><br>
+			<label for="sex">性别：</label>
+				<select name="sex">
+					<option value="man">男</option>
+					<option value="woman">女</option>
+				</select><br><br>
+			<label for="email">邮箱：</label><input type="text" name="email" autocomplete="on" id="email"><br><br>
+			<label for="id">学号：</label><input type="text" name="name" autocomplete="on" id="id"><br><br>
+			<label for="class">班级：</label><input type="text" name="name" autocomplete="on" id="class"><br><br>
+		</fieldset>
+		<fieldset>
+			<legend>选择</legend>
+			<label for="idea">想法：</label><input type="text" name="name" autocomplete="on" id="idea"><br><br>
+		
+		</fieldset>
+		<button type="submit" formmethod="get">GET</button>
+		<button type="submit" formmethod="post">POST</button>
+	</form>
+</body>
+</html>
+
+继续加油吧~！
